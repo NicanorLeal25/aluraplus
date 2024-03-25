@@ -34,6 +34,12 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container_2 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -171,7 +177,7 @@ body {
 
     .container {
         
-        display: inline-block;
+        display: flex;
         grid-template-columns: auto;
     }
 
@@ -221,7 +227,13 @@ body {
         width: 50%;
         
     }
-    
+
+    .container_2 {
+        
+        display: block;
+        
+       
+    }
     
 }
 
